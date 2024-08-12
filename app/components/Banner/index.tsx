@@ -52,10 +52,10 @@ const Banner = () => {
           <div className="col-span-6 flex justify-center relative">
             <div className="flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute">
               <Image
-                src={"/images/Banner/rigth-icon.png"}
+                src={"/images/Banner/banner-projetos.png"}
                 alt="pizza-image"
-                width={30}
-                height={30}
+                width={70}
+                height={70}
               />
               <p className="text-lg font-normal">
                 Mais de 50+ <br />
