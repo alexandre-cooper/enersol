@@ -51,6 +51,7 @@ const Banner = () => {
           </div>
 
           <div className="col-span-6 flex justify-center relative">
+            <div className="flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute"></div>
             <VideoPlayer />
           </div>
         </div>
