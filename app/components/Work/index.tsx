@@ -19,9 +19,10 @@ const cardData: cardDataType[] = [
     link: "Learn more",
   },
   {
-    imgSrc: "/images/Features/featureTwo.svg",
-    heading: "Cooking warw",
-    subheading: "Sed ut perspiciatis unde omnis iste natus error",
+    imgSrc: "/images/Features/featureTwo.png",
+    heading: "Qualidade",
+    subheading:
+      "Nós trabalhamos com os melhores painés e inversores do mercado",
     link: "Learn more",
   },
   {
