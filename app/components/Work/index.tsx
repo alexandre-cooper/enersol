@@ -13,7 +13,7 @@ interface cardDataType {
 
 const cardData: cardDataType[] = [
   {
-    imgSrc: "/images/Features/featureOne.png",
+    imgSrc: "/images/Features/One.png",
     heading: "Entrega rápida",
     subheading: "Nós trabalhamos para promover a entrega mais rápida possível",
     link: "Learn more",
@@ -26,15 +26,15 @@ const cardData: cardDataType[] = [
     link: "Learn more",
   },
   {
-    imgSrc: "/images/Features/featureThree.svg",
-    heading: "Best chef",
-    subheading: "Sed ut perspiciatis unde omnis iste natus error",
+    imgSrc: "/images/Features/featureThree.png",
+    heading: "Pós venda",
+    subheading: "Oferecemos um suporte técnico contínuo excepcional. ",
     link: "Learn more",
   },
   {
-    imgSrc: "/images/Features/featureFour.svg",
-    heading: "Fast food",
-    subheading: "Sed ut perspiciatis unde omnis iste natus error",
+    imgSrc: "/images/Features/Four.png",
+    heading: "Facilidade",
+    subheading: "Ótimas condições de pagamento e financiamento",
     link: "Learn more",
   },
 ];
@@ -52,7 +52,7 @@ const Work = () => {
             triggerOnce={true}
           >
             <h3 className="text-pink text-lg font-normal mb-3 ls-51 uppercase">
-              QUEM SOMOS?
+              Nossos benefícios.
             </h3>
           </Fade>
           <Fade
@@ -63,7 +63,7 @@ const Work = () => {
             triggerOnce={true}
           >
             <p className="text-3xl lg:text-5xl font-semibold text-lightgrey">
-              A Enersol Energia Solar é a garantia da sua <br /> economia.
+              A Enersol está comprometida e empenhada em <br /> garantir:
             </p>
           </Fade>
         </div>

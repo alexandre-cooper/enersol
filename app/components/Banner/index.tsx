@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
+import VideoPlayer from "../Video";
 import Link from "next/link";
 
 const Banner = () => {
@@ -40,7 +41,7 @@ const Banner = () => {
             >
               <div className="md:flex align-middle justify-center lg:justify-start">
                 <button className="text-xl w-full md:w-auto font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-14 mr-6">
-                  <Link href="#cook-section">Quero economizar agora!</Link>
+                  <Link href="#cook-section">Orçamento!</Link>
                 </button>
                 <button className="flex border w-full md:w-auto mt-5 md:mt-0 border-pink justify-center rounded-full text-xl font-medium items-center py-5 px-10 text-pink hover:text-white hover:bg-pink">
                   <Link href="#about-section">Por que energia solar?</Link>
@@ -50,24 +51,7 @@ const Banner = () => {
           </div>
 
           <div className="col-span-6 flex justify-center relative">
-            <div className="flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute">
-              <Image
-                src={"/images/Banner/banner-projetos.png"}
-                alt="pizza-image"
-                width={70}
-                height={70}
-              />
-              <p className="text-lg font-normal">
-                Mais de 50+ <br />
-                projetos concluídos.
-              </p>
-            </div>
-            <Image
-              src="/images/Banner/banner-image.jpg"
-              alt="nothing"
-              width={650}
-              height={292}
-            />
+            <VideoPlayer />
           </div>
         </div>
       </div>
