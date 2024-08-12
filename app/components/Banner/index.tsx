@@ -17,7 +17,7 @@ const Banner = () => {
               triggerOnce={true}
             >
               <h1 className="text-4xl lg:text-7xl font-semibold mb-5 text-lightgrey md:4px lg:text-start text-center">
-                Descubra <br /> o sabor de Portugal
+                Que tal economizar <br /> de verdade?
               </h1>
             </Fade>
             <Fade
@@ -28,8 +28,7 @@ const Banner = () => {
               triggerOnce={true}
             >
               <p className="text-grey lg:text-lg font-normal mb-10 lg:text-start text-center">
-                Comidas tipicas e tradicionais do Porto <br /> Também temos
-                comidas variadas
+                Economize até 95% <br /> na sua conta de luz!
               </p>
             </Fade>
             <Fade
@@ -41,10 +40,10 @@ const Banner = () => {
             >
               <div className="md:flex align-middle justify-center lg:justify-start">
                 <button className="text-xl w-full md:w-auto font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-14 mr-6">
-                  <Link href="#cook-section">Quero descobrir</Link>
+                  <Link href="#cook-section">Quero economizar agora!</Link>
                 </button>
                 <button className="flex border w-full md:w-auto mt-5 md:mt-0 border-pink justify-center rounded-full text-xl font-medium items-center py-5 px-10 text-pink hover:text-white hover:bg-pink">
-                  <Link href="#about-section">Explorar sabores</Link>
+                  <Link href="#about-section">Por que energia solar?</Link>
                 </button>
               </div>
             </Fade>
@@ -53,18 +52,18 @@ const Banner = () => {
           <div className="col-span-6 flex justify-center relative">
             <div className="flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute">
               <Image
-                src={"/images/Banner/pizza.svg"}
+                src={"/images/Banner/rigth-icon.png"}
                 alt="pizza-image"
-                width={68}
-                height={68}
+                width={30}
+                height={30}
               />
               <p className="text-lg font-normal">
                 Mais de 50+ <br />
-                receitas.
+                projetos concluídos.
               </p>
             </div>
             <Image
-              src="/images/Banner/banner-image.png"
+              src="/images/Banner/banner-image.jpg"
               alt="nothing"
               width={650}
               height={292}

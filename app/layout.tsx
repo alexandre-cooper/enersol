@@ -1,18 +1,16 @@
-import './globals.css';
-import Navbar from './components/Navbar/index';
-import Footer from './components/Footer/Footer';
-
+import "./globals.css";
+import Navbar from "./components/Navbar/index";
+import Footer from "./components/Footer/Footer";
 
 export const metadata = {
-  title: 'Restaurante Papagaio',
-  description: 'Restaurante Tradicional Português',
-}
-
+  title: "Enersol",
+  description: "Energia Solar",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -22,5 +20,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }
